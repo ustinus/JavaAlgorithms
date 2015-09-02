@@ -3,9 +3,11 @@ package Arrays;
 public class FindMaxValueInArray {
 	
 	static int[] array = {1, 333, 5352, -223, 0, 4};
+	static int[] arrayEmpty = {};
 	
 	public static void main(String[] args) {
 		System.out.println(findMax(array));
+		System.out.println(findMax(arrayEmpty));
 	}
 	
 	public static String findMax(int[] arr) {
