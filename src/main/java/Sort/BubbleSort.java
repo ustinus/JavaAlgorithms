@@ -7,11 +7,10 @@ public class BubbleSort {
 	
 	public static void main(String[] args) {
 		Sort sorter = new Sort();
+		sorter.printArray(array);
 		sorter.sortArray(array);
 		sorter.printArray(array);
-
 	}
-
 }
 
 class Sort {
