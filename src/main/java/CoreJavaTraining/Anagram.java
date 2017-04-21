@@ -11,7 +11,12 @@ public class Anagram {
 		System.out.println(isAnagrams("BBBBAA", "BBBAAB"));	
 		System.out.println(isAnagrams("bbBBaA", "BBbaAB"));	
 		System.out.println(isAnagrams("aaa", "aa"));	
-		System.out.println(isAnagrams("seesss", "sssaaa"));	
+		System.out.println(isAnagrams("seesss", "sssaaa"));
+
+
+
+
+
 		
 		}
 		
@@ -45,6 +50,7 @@ public class Anagram {
 		            }
 		            else {
 		                wordmap.put(Character.toLowerCase(word1.charAt(i)), 1);
+
 		            }
 		        }     
 		    }

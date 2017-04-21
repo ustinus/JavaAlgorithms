@@ -2,7 +2,7 @@ package CoreJavaTraining;
 
 public class DuplicatesInString {
 	
-	public static String string = "Helllo World!!";
+	public static String string = "Helllo World!! Ustinnnnn";
 	
 	public static String findDuplicates(String str) {
 		String dups = "";
